@@ -41,9 +41,7 @@ header {
 .nav-main > img {
   height: 45%;
 }
-.ul-social > li > a > img {
-  height: 2rem;
-}
+
 .ul-main {
   display: flex;
   gap: 15px;
@@ -54,6 +52,9 @@ header {
 .ul-social {
   display: flex;
   gap: 5px;
+}
+.ul-social > li > a > img {
+  height: 2rem;
 }
 main {
   height: 100vh;
