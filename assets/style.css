@@ -45,7 +45,7 @@ header {
 .ul-main {
   display: flex;
   gap: 15px;
-  justify-content: end;
+  justify-content: flex-end;
   flex-grow: 1;
   padding-right: 100px;
 }
@@ -54,7 +54,7 @@ header {
   gap: 5px;
 }
 .ul-social > li > a > img {
-  height: 2rem;
+  height: 1.8rem;
 }
 main {
   height: 100vh;
