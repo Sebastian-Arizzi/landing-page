@@ -45,13 +45,12 @@ header {
 .ul-main {
   display: flex;
   gap: 15px;
-  justify-content: flex-end;
-  flex-grow: 1;
-  padding-right: 100px;
+  margin-left: auto;
 }
 .ul-social {
   display: flex;
   gap: 5px;
+  margin-left: 100px;
 }
 .ul-social > li > a > img {
   height: 1.8rem;
