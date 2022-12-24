@@ -17,14 +17,7 @@
   text-decoration: none;
   list-style-type: none;
 }
-a:link,
-a:visited,
-a:active {
-  color: rgb(50, 50, 50);
-}
-a:hover {
-  color: #ff4d0e;
-}
+
 body {
   background-color: rgb(243, 243, 243);
 }
@@ -79,7 +72,7 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 100px 10px;
-  color: #ff4d0e;
+  
 }
 .principal {
   display: flex;
@@ -99,6 +92,27 @@ article {
   font-size: 1rem;
   color: var(--main-text-primary-color);
   padding-top: 10px;
+}
+.buttons-top{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  
+  
+}
+.b-reserva a{
+  background-color: var(--main-bg-secondary-color);
+  color: var(--main-text-secondary-color);
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+.b-more-info a{
+  background-color: var(--main-bg-secondary-color);
+  color: var(--main-text-secondary-color);
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
 }
 aside {
   display: flex;
