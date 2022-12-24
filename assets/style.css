@@ -44,10 +44,13 @@ header {
   height: 45%;
 }
 
-.ul-main {
+.ul-main  {
   display: flex;
   gap: 15px;
   margin-left: auto;
+  text-decoration: none;
+}
+.ul-main a {
   text-decoration: none;
 }
 .ul-social {
