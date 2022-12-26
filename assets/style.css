@@ -19,7 +19,7 @@
 }
 
 body {
-  background-color: rgb(243, 243, 243);
+  background-color: var(--main-background-color)
 }
 header {
   display: flex;
@@ -52,7 +52,7 @@ header {
 }
 .ul-main a {
   text-decoration: none;
-  color: black;
+  color: var(--main-text-primary-color)
 }
 .ul-social {
   display: flex;
