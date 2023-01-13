@@ -9,15 +9,121 @@
   </head>
   <body>
     <header>
-      <nav class="nav-main">
-        <img src="/assets/img/logo2022.png" alt="Gappertime" />
-        <ul class="ul-main">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Nosotros</a></li>
-          <li><a href="#">Programas</a></li>
-          <li><a href="#">Testimonios</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
+      <nav>
+        <!-- contenedor principal del nav -->
+        <div class="nav-container">
+          <!-- contenedor mobile-->
+          <div class="menu-mobile">
+            <!-- logo -->
+            <img src="/assets/img/logo2022.png" alt="Gappertime" />
+            <!-- icono hamburguesa -->
+            <label for="menu-icon" class="nav-menu-responsive">
+              <img src="./assets/menu.svg" class="nav-img-responsive" />
+            </label>
+          </div>
+          <!-- checkbox oculto con css   -->
+          <input type="checkbox" id="menu-icon" class="check-responsive" />
+          <!-- menu general -->
+          <div class="nav-menu">
+            <ul>
+              <li><a href="#" class="nav-item">Home</a></li>
+              <li><a href="#" class="nav-item">Nosotros</a></li>
+              <li><a href="#" class="nav-item">Programas</a></li>
+              <li><a href="#" class="nav-item">Testimonios</a></li>
+              <li><a href="#" class="nav-item">Contacto</a></li>
+            </ul>
+          </div>
+          <ul class="ul-social">
+            <li>
+              <a href="#"><img src="/assets/img/wh.png" alt="whatsapp" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/assets/img/ins.png" alt="instagram" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/assets/img/face.png" alt="facebook" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="/assets/img/link.png" alt="linkedin" /></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container-top">
+        <div class="left-column">
+          <h2>Viaja con Gappertime</h2>
+          <p>
+            Gappertime es una agencia de turismo educativo. Nuestra misión es
+            inspirar y crear experiencias de valor para personas que buscan
+            aprender o mejorar sus habilidades en inglés.
+          </p>
+
+          <div class="buttons-top">
+            <div class="b-reserva"><a href="#">Reserva</a></div>
+            <div class="b-more-info"><a href="#">Más Info</a></div>
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="gappers">
+            <img src="./assets/img/landing-image.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="slogan">
+        <p>
+          "Somos el puente para que puedas dominar otros idiomas y vivas la
+          experiencia que construirá tu futuro"
+        </p>
+      </div>
+      <div class="container-mid">
+        <h2>Porque elegirnos</h2>
+        <div class="the-cards">
+          <div class="benefit-card1">
+            <img src="./assets/img/person.png" alt="" />
+            <h3>Asesoramiento personalizado</h3>
+            <p>
+              Brindamos asesoramiento personalizado para que no te quedes con
+              ninguna duda y así tengas le mejor experiencia con nuestros
+              servicios.
+            </p>
+          </div>
+
+          <div class="benefit-card2">
+            <img src="./assets/img/for-all.png" alt="" />
+            <h3>Para todas las edades</h3>
+            <p>
+              Tenemos programas para todas las edades, nunca es tarde para que
+              empieces a estudiar.
+            </p>
+          </div>
+
+          <div class="benefit-card3">
+            <img src="./assets/img/for-you.png" alt="" />
+            <h3>Adaptado a tus necesidades</h3>
+            <p>
+              Si alguno de nuestros programas no se adapta a la experiencia que
+              necesitas realizar podemos conversar para crear un producto único
+              para vos.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-bot">
+        <div class="left-col-bot">
+          <h3>Contacto</h3>
+          <p>Argentina, Córdoba</p>
+          <p>E-mail: hola@gappertime.com</p>
+          <p>Tel: +54 351 3417449</p>
+        </div>
+
+        <div class="right-col-bot">
+          <img src="./assets/img/ireland.JPG" alt="" />
+        </div>
+      </div>
+      <footer>
+        <img src="./assets/img/logo2022.png" alt="">
         <ul class="ul-social">
           <li>
             <a href="#"><img src="/assets/img/wh.png" alt="whatsapp" /></a>
@@ -32,41 +138,7 @@
             <a href="#"><img src="/assets/img/link.png" alt="linkedin" /></a>
           </li>
         </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="container-top">
-        <section class="principal">
-          <article>
-            <div class="title">
-              <h1>Viaja con Gappertime</h1>
-            </div>
-            <div class="text">
-              <p>
-                Gappertime es una agencia de turismo educativo.<br />
-                Nuestra misión es inspirar y crear experiencias de valor para
-                personas que buscan aprender o mejorar sus habilidades en
-                inglés.
-              </p>
-            </div>
-            <div class="buttons-top">
-              <div class="b-reserva"><a href="#">Reserva</a></div>
-              <div class="b-more-info"><a href="#">Más Info</a></div>
-            </div>
-          </article>
-        </section>
-        <aside>
-          <div class="image">
-            <img src="/assets/img/landing-image.jpg" alt="GAPPER-KIDS" />
-          </div>
-        </aside>
-      </div>
-      <section class="section-experience">
-        <h2>
-          "Somos el puente para que puedas dominar otros idiomas <br />
-          y vivas la experiencia que construirá tu futuro"
-        </h2>
-      </section>
+      </footer>
     </main>
   </body>
 </html>
